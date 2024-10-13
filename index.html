@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="weather-container">
+        <form action="">
+            <h1> Check weather in your city</h1>
+            <input type="search" placeholder="City" id="search" required>
+            <button type="button" onclick="getWeather();">Search</button>
+            <div id="result">
+                <h1><span id="country"></span></h1>
+                <h4><span id="localtime"></span></h4>
+                <h3><span id="region"></span></h3>
+                <div id="iconIMG"></div>
+                <h3><span id="lat"></span></h3>
+                <h3><span id="textCloud"></span></h3>
+            </div>
+        </form>
+        <script src="script.js"></script>
+    </div>
+</body>
+
+</html>
